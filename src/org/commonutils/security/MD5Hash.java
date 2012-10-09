@@ -29,7 +29,7 @@ public class MD5Hash
 	private String hash;
 	
 	/**
-	 * Initializes this MD5Hash object with MD5 algorithm and resets the digest. 
+	 * Initializes this MD5Hash object with MD5 algorithm and resets the digest.
 	 * @throws NoSuchAlgorithmException 
 	 */
 	public MD5Hash() throws NoSuchAlgorithmException
