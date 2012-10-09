@@ -56,7 +56,7 @@ public class MathChallengeCaptcha
 	 * answerhash : "d3d9446802a44259755d38e6d163e820"
 	 * 
 	 * (here, value of key "answerhash" is MD5 hash code of answer "10").
-	 * @return
+	 * @return String representing JSON of MathCAPTCHA challenge.
 	 */
 	public String getChallenge()
 	{
