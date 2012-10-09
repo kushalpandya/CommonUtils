@@ -34,7 +34,7 @@ public class FieldValidator
 	}
 	
 	/**
-	 * Initializes this ieldValidator object with custom pattern.
+	 * Initializes this FieldValidator object with custom pattern.
 	 * @param pattern
 	 */
 	public FieldValidator(String pattern)
