@@ -44,7 +44,7 @@ This class provides set of functions to check for valid common form fields like,
 
 This class provides random Mathematical challenge generation to implement CAPTCHA. It provides JSON String that has simple arithmetic expression (Eg; 2 * 5 = 10), where user must be provided with only operands and he's supposed to calculate the answer and provide it as input.
 
-* **`public MathChallengeCaptcha() throws NoSuchAlgorithmException`** - Initializes this MathChallengeCaptcha object with 10 as maximum possible value of numbers used in generated challenge.
+* **`MathChallengeCaptcha() throws NoSuchAlgorithmException`** - Initializes this MathChallengeCaptcha object with 10 as maximum possible value of numbers used in generated challenge.
 * **`MathChallengeCaptcha(int max) throws NoSuchAlgorithmException`** - Initializes this MathChallengeCaptcha object with provided maximum possible value of numbers used in generated challenge.
 * `String getChallenge()` - Gets Mathematical Challenge as a JSON String that contains an expression values; operand1, operand2, operator and MD5 Hash code of answer.
 
